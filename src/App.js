@@ -6,6 +6,7 @@ import NavBar from "./components/nav_component.js";
 const App = (props) => {
   return (
     <>
+      {/* Navigation */}
       <NavBar/>
     </>
   )

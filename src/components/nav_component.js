@@ -43,8 +43,8 @@ const Presentational = (props) => {
           .to ('.nav-bar__logo',{display: "none"})
           .to ('.nav-bar__hamburger-button', {y: 50, opacity: 0}, "-=.5")
           .to ('.nav-bar', {backgroundColor: "white"})
-          .set (".nav-bar__hamburger-button-icon", {backgroundImage: `url(${closeSvg})`}, '-=.1')
-          .to ('.nav-bar__hamburger-button', {y: 1, opacity: 1, delay: .9})
+          .set (".nav-bar__hamburger-button-icon", {backgroundImage: `url(${closeSvg})`}, '-=.2')
+          .to ('.nav-bar__hamburger-button', {y: 1, opacity: 1, delay: .4})
           .fromTo ('.nav-bar__menu',
                   {x:100, opacity:0},
                   {duration: 1, opacity:1, display: "block", delay: .2, x: 1})
