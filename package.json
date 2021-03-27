@@ -1,14 +1,19 @@
 {
   "name": "room_homepage_challenge",
   "version": "0.1.0",
+  "description": "This is a solution to the frontend mentor room_homepage challenge",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
+    "gsap": "^3.6.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.3",
     "react-scripts": "4.0.3",
+    "redux": "^4.0.5",
+    "sass": "^1.32.8",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
@@ -34,5 +39,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "keywords": [
+    "react",
+    "react-redux",
+    "sass",
+    "css",
+    "web development",
+    "frontend",
+    "frontend mentor"
+  ],
+  "author": {
+    "name": "Akinkunmi Mustapha",
+    "email": "akinkunmiMustapha1@gmail.com",
+    "url": "https://github.com/OlamideMustapha"
+  },
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OlamideMustapha/Room_homepage_challenge.git"
   }
 }

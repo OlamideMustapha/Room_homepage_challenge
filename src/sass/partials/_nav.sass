@@ -1,0 +1,49 @@
+.nav-bar
+  @include flex-row (flex-start, center)
+  padding: 4em 2em
+  transition: all 0.2s ease-in-out
+  // &__transparent
+  //   background-color: transparent
+  // &__white
+  //   background-color: $white
+
+  &__hamburger-button
+    width: 30px
+    height: 21px
+    justify-self: flex-start
+    cursor: pointer
+    background-color: transparent
+    border: none
+    outline: none
+  &__hamburger-button-icon
+    width: 100%
+    height: 100%
+    transition: all 2s ease-in-out
+    background-image: url("../../assets/images/icon-hamburger.svg")
+    background-repeat: no-repeat
+
+
+  &__logo
+    align-self: center
+    justify-self: center
+    margin: auto
+  &__logo-image
+    transition: all 0.2s ease-in-out
+
+  &__menu
+    justify-self: flex-end
+    width: 100%
+    display: none
+  &__menu-items
+    @include flex-row (flex-end, center)
+    list-style-type: none
+    margin: 0
+  &__menu-item
+    padding-left: 3.5em
+    cursor: pointer
+
+  &__menu-link
+    font-size: 1.2em
+    font-weight: 600
+    color: $black
+    text-decoration: none
