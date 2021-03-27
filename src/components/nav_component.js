@@ -84,16 +84,16 @@ const Presentational = (props) => {
       <div className="nav-bar__menu">
         <ul className="nav-bar__menu-items">
           <li className="nav-bar__menu-item nav-bar__menu-item__one">
-            <a href="#" className="nav-bar__menu-link">home</a>
+            <a href="./" className="nav-bar__menu-link">home</a>
           </li>
           <li className="nav-bar__menu-item nav-bar__menu-item__two">
-            <a href="#" className="nav-bar__menu-link">shop</a>
+            <a href="./" className="nav-bar__menu-link">shop</a>
           </li>
           <li className="nav-bar__menu-item nav-bar__menu-item__three">
-            <a href="#" className="nav-bar__menu-link">about</a>
+            <a href="./" className="nav-bar__menu-link">about</a>
           </li>
           <li className="nav-bar__menu-item nav-bar__menu-item__four">
-            <a href="#" className="nav-bar__menu-link">contact</a>
+            <a href="./" className="nav-bar__menu-link">contact</a>
           </li>
         </ul>
       </div>
