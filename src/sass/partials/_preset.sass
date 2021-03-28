@@ -16,7 +16,19 @@ body, #root
 
 
 #root
-  background-color: $black
+  display: grid
+  grid-template-rows: 133vh 50vh 30vh 40vh
 
 code
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
+
+
+
+.hide-desktop
+  @include breakpoint-up (medium)
+    display: none
+
+
+.hide-mobile
+  @include breakpoint-down (small)
+    display: none

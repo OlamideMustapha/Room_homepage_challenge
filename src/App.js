@@ -1,13 +1,26 @@
+/**
+ * Importind dependencies
+ */
+import { useEffect } from "react";
+
 import "./sass/App.sass";
+import start from "./animations/App_animation.js";
+import Hero from "./components/hero_component.js";
 import NavBar from "./components/nav_component.js";
 
 
-
 const App = (props) => {
+  useEffect ( () => {
+    // start animation
+    start ();
+  }, []);
+
   return (
     <>
-      {/* Navigation */}
-      <NavBar/>
+      <header className="header">
+        <NavBar />
+        <Hero />
+      </header>
     </>
   )
 }

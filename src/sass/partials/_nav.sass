@@ -1,9 +1,13 @@
 .nav-bar
+  position: absolute
+  top: 0
+  left: 0
+  z-index: 1
   @include flex-row (flex-start, center)
-  padding: 2em 2em
+  padding: 4em 2em
   transition: all 0.2s ease-in-out
   width: 100%
-  height: 18%
+  // height: 18%
   // &__transparent
   //   background-color: transparent
   // &__white
@@ -34,7 +38,6 @@
   &__menu
     justify-self: flex-end
     width: 100%
-    display: none
     position: relative
   &__menu-items
     @include flex-row (flex-end, center)
