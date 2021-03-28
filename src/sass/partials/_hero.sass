@@ -12,6 +12,31 @@
   &__description
     width: 100%
     height: 60%
+    padding: 3em 2em
+
+    &-header
+      width: 65vw
+    &-text
+      color: $darkGray
+      line-height: 1.7em
+  &__button
+    margin-top: 3em
+    background-color: transparent
+    border: none
+    padding: .8em
+    outline: none
+    &:hover
+      .hero__button-text
+        color: $darkGray
+      .hero__button-svg path
+        fill: $darkGray
+    &-text, &-svg path
+      transition: all .5s ease-in-out
+    &-text
+      text-transform: uppercase
+      color: $black
+      letter-spacing: .8em
+      font-weight: 500
   &__slide-button-wrapper
     position: absolute
     bottom: 0
